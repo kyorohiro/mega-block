@@ -1,4 +1,8 @@
 .DS_Store
 .firebase
 .firebaserc
+public_babel/node_modules/
+public_babel/package-lock.json
+firebase-debug.log
+*~
 
