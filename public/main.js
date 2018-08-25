@@ -1,4 +1,11 @@
-let { x, y, z } = { x: 1, y: 2, a: 3, b: 4 };
-console.log(x); // 1
-console.log(y); // 2
-console.log(z); // { a: 3, b: 4 }
+var app = new Vue({
+	el: "#app",
+	data: {
+		message: "Hello Vue!!",
+		seen: true
+	}
+});
+
+(function main() {
+	console.log(app.message);
+})();
